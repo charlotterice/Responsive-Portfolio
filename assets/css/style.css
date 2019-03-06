@@ -30,7 +30,7 @@ body {
     background-image: url(../images/white-waves.png)
 }
 .container {
-    background-color:#fff;
+    background:#fff;
     margin:200px;
     color:#777;
     padding:20px;
@@ -60,7 +60,7 @@ header {
     color:#777;
     padding:20px;
 }
-.content{
+p {
     font-family: Arial, Helvetica, sans-serif;
 }
 a {
@@ -184,40 +184,46 @@ input[type=submit] {
         left:100px;
     }
     .container {
-        margin:200px 400px 200px 100px;
-        padding-bottom: 250px;
+        margin:150px 400px 200px 100px;
+        padding-bottom: 50px;
+        line-height:1.5;
     }
     nav {
         right:50px;
     }
+    #indeximage {
+        height:30%;
+        width:30%;
+    }
     .Cat3 {
-       bottom:-210px;
-       left:-210px;
+        bottom:-210px;
+        left:-210px;
+    }
+    .content {
+        padding:20px;
     }
     form {
-        width: 90%;
-        margin: 10px;
-
+        padding:20px;
     }
-    form input {
-        width: 90%;
-    }
-
     form textarea  {
         width: 100px;
     }
 textarea[name=Message] {
     width:430px;
+    height:100px;
+}
+.content {
+    padding-bottom:200px;
 }
 }
-@media screen and (max-width:768px){
+@media screen and (max-width: 768px){
     h1{
         left:50px;
     }
     .container {
-        margin:200px 50px 100px 50px;
+        margin:150px 30px 100px 30px;
         padding-bottom: 50px;
-        font-size:24px;
+        line-height:2.0;
     }
     #indeximage{ 
         height:30%;
@@ -226,10 +232,15 @@ textarea[name=Message] {
     nav {
         right:50px;
     }
+  img {
+      height:200px;
+      width:200px;
+  }
     .Cat3 {
         bottom:-210px;
         left:-210px;
     }
+  
     form {
         width: 90%;
         margin: 10px;
@@ -262,15 +273,14 @@ textarea[name=Message] {
     form {
         width: 90%;
         margin: 10px;
-
     }
     form input {
         width: 90%;
     }
-
     form textarea  {
         width: 100px;
     }
 textarea[name=Message] {
     width:500px;   
+}
 }
