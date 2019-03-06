@@ -257,8 +257,8 @@ textarea[name=Message] {
         padding:30px;
     }
     .container {
-        margin:200px 400px 300px 400px;
-        padding-bottom: 250px;
+        margin:50, 25, 25, 25;
+        padding-bottom: 50px;
     }
     nav {
         top:90px;
@@ -269,6 +269,12 @@ textarea[name=Message] {
         right:0px;
         font-family: Arial, Helvetica, sans-serif;
         padding:20px 0px 20px 0px;
+    }
+    #indeximage {
+        height:90%;
+        width:90%;
+        float:none;
+        padding:25px;
     }
     .Cat3 {
        bottom:-210px;
